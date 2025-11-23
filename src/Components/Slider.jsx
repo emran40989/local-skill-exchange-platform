@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import Card from "./Card";
+
 
 export default function App() {
   return (
@@ -29,32 +29,33 @@ export default function App() {
           modules={[Autoplay, Pagination, Navigation]}
         >
           <SwiperSlide>
-            <Card />
+           <img src="https://i.ibb.co.com/5WZDBJVJ/guiter.jpg" alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <Card />
+           <img src="https://i.ibb.co.com/M5cHXMjV/english.jpg" alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <Card />
+           <img src="https://i.ibb.co.com/N6zH3pB0/yoga.jpg" alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <Card />
+           <img src="https://i.ibb.co.com/WWqxrCGN/coding.jpg" alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <Card />
+           <img src="https://i.ibb.co.com/qYH4L0dT/python.jpg" alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <Card />
+           <img src="https://i.ibb.co.com/TDZqFBwt/photography.jpg" alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <Card />
+           <img src="https://i.ibb.co.com/q3gYjSYN/meditaion.jpg" alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <Card />
+           <img src="https://i.ibb.co.com/gLxng8sd/marketing.jpg" alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-            <Card />
+           <img src="https://i.ibb.co.com/3yvsXmM9/chess.jpg" alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
+         
         </Swiper>
       </div>
     </>

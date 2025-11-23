@@ -1,17 +1,20 @@
 import React from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
+import logo from "../assets/mylogo.png"
+
+
 
 const Navbar = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/" className="text-sm font-semibold">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/login">Login</NavLink>
+        <NavLink to="/skills" className="text-sm font-semibold">Skills</NavLink>
       </li>
       <li>
-        <NavLink to="/signup">Signup</NavLink>
+        <NavLink to="/signup" className="text-sm font-semibold">Signup</NavLink>
       </li>
     </>
   );
@@ -39,12 +42,14 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex="-1"
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-2 mt-3 w-52 p-2 shadow"
           >
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <Link to="/" className="flex gap-5 justify-center items-center"><img src={logo} alt="Logo" className="w-[30px]" />
+        <p className="text-lg font-semibold">Skill Exchange Platform</p>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -52,7 +57,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <button className="btn btn-outline btn-primary"> <Link to="/login" className="text-sm font-semibold">Login</Link></button>
       </div>
     </div>
   );

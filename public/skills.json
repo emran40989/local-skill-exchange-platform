@@ -8,7 +8,7 @@
     "rating": 4.8,
     "slotsAvailable": 3,
     "description": "Acoustic guitar classes for complete beginners.",
-    "image": "https://i.ibb.co.com/x8rCNRsM/guitar-lessons-1.jpg",
+    "image": "https://i.ibb.co.com/5WZDBJVJ/guiter.jpg",
     "category": "Music"
   },
   {
@@ -20,7 +20,7 @@
     "rating": 4.6,
     "slotsAvailable": 5,
     "description": "Conversational English sessions for non-native speakers.",
-    "image": "https://i.postimg.cc/example2.png",
+    "image": "https://i.ibb.co.com/M5cHXMjV/english.jpg",
     "category": "Language"
   },
   {
@@ -32,20 +32,20 @@
     "rating": 4.7,
     "slotsAvailable": 4,
     "description": "Introductory yoga sessions to improve flexibility and mindfulness.",
-    "image": "https://i.postimg.cc/example3.png",
+    "image": "https://i.ibb.co.com/N6zH3pB0/yoga.jpg",
     "category": "Health"
   },
   {
     "skillId": 4,
-    "skillName": "Basic Cooking Skills",
+    "skillName": "Basic Web Development Skills",
     "providerName": "Tariq Ahmed",
     "providerEmail": "tariq@skillswap.com",
     "price": 25,
     "rating": 4.5,
     "slotsAvailable": 6,
     "description": "Learn easy recipes and kitchen basics for daily cooking.",
-    "image": "https://i.postimg.cc/example4.png",
-    "category": "Cooking"
+    "image": "https://i.ibb.co.com/WWqxrCGN/coding.jpg",
+    "category": "Programming"
   },
   {
     "skillId": 5,
@@ -56,7 +56,7 @@
     "rating": 4.9,
     "slotsAvailable": 2,
     "description": "Learn Python programming from scratch with hands-on exercises.",
-    "image": "https://i.postimg.cc/example5.png",
+    "image": "https://i.ibb.co.com/qYH4L0dT/python.jpg",
     "category": "Programming"
   },
   {
@@ -68,7 +68,7 @@
     "rating": 4.6,
     "slotsAvailable": 5,
     "description": "Learn to capture stunning photos with any camera.",
-    "image": "https://i.postimg.cc/example6.png",
+    "image": "https://i.ibb.co.com/TDZqFBwt/photography.jpg",
     "category": "Art"
   },
   {
@@ -80,7 +80,7 @@
     "rating": 4.8,
     "slotsAvailable": 8,
     "description": "Guided meditation sessions to reduce stress and improve focus.",
-    "image": "https://i.postimg.cc/example7.png",
+    "image": "https://i.ibb.co.com/q3gYjSYN/meditaion.jpg",
     "category": "Health"
   },
   {
@@ -92,47 +92,11 @@
     "rating": 4.7,
     "slotsAvailable": 3,
     "description": "Learn the basics of social media marketing, SEO, and content strategy.",
-    "image": "https://i.postimg.cc/example8.png",
+    "image": "https://i.ibb.co.com/gLxng8sd/marketing.jpg",
     "category": "Business"
   },
   {
     "skillId": 9,
-    "skillName": "Calligraphy for Beginners",
-    "providerName": "Rumana Akter",
-    "providerEmail": "rumana@skillswap.com",
-    "price": 20,
-    "rating": 4.5,
-    "slotsAvailable": 4,
-    "description": "Learn elegant handwriting and decorative lettering techniques.",
-    "image": "https://i.postimg.cc/example9.png",
-    "category": "Art"
-  },
-  {
-    "skillId": 10,
-    "skillName": "Beginner Guitar Lessons",
-    "providerName": "Fahim Islam",
-    "providerEmail": "fahim@skillswap.com",
-    "price": 22,
-    "rating": 4.6,
-    "slotsAvailable": 2,
-    "description": "Electric guitar sessions for beginners with practical exercises.",
-    "image": "https://i.postimg.cc/example10.png",
-    "category": "Music"
-  },
-  {
-    "skillId": 11,
-    "skillName": "French Language Basics",
-    "providerName": "Camille Dubois",
-    "providerEmail": "camille@skillswap.com",
-    "price": 28,
-    "rating": 4.9,
-    "slotsAvailable": 3,
-    "description": "Learn basic French vocabulary, phrases, and pronunciation.",
-    "image": "https://i.postimg.cc/example11.png",
-    "category": "Language"
-  },
-  {
-    "skillId": 12,
     "skillName": "Beginner Chess Strategy",
     "providerName": "Imran Hossain",
     "providerEmail": "imran@skillswap.com",
@@ -140,7 +104,7 @@
     "rating": 4.7,
     "slotsAvailable": 6,
     "description": "Learn basic chess tactics, openings, and strategies.",
-    "image": "https://i.postimg.cc/example12.png",
+    "image": "https://i.ibb.co.com/3yvsXmM9/chess.jpg",
     "category": "Games"
   }
 ]
