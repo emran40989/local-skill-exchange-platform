@@ -25,7 +25,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 export default function App() {
   return (
     <>
-     <div className="bg-yellow-100">
+     <div className="bg-yellow-50">
        <div className="container mx-auto py-8">
         <div className="rounded-lg overflow-hidden">
         <Swiper
