@@ -25,7 +25,9 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 export default function App() {
   return (
     <>
-      <div className="rounded-lg overflow-hidden">
+     <div className="bg-yellow-100">
+       <div className="container mx-auto py-8">
+        <div className="rounded-lg overflow-hidden">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -69,6 +71,8 @@ export default function App() {
          
         </Swiper>
       </div>
+      </div>
+     </div>
     </>
   );
 }

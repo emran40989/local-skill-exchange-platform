@@ -4,8 +4,8 @@ import { Link } from "react-router";
 const Login = () => {
   return (
     <div>
-      <div className="flex justify-center items-center min-h-[calc(100vh-280px)]">
-          <div className="card bg-base-100 w-full max-w-sm shadow-2xl">
+      <div className="bg-base-100 flex justify-center items-center min-h-[calc(100vh-280px)]">
+          <div className="card bg-base-100 w-full max-w-sm shadow-2xl container mx-auto">
             <div className="card-body">
               <form action="">
                 <fieldset className="fieldset">

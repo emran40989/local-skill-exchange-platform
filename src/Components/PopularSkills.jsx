@@ -11,9 +11,10 @@ const PopularSkills = () => {
   }, []);
 
   return (
-    <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
-        {skills.map((skill) => (
+    <div className="py-8 bg-base-200 rounded-lg">
+      <h2 className="text-3xl text-center font-bold my-4">Popular Skills</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4 container mx-auto">
+        {skills.slice(0,3).map((skill) => (
           <div className="w-full gap-2">
             <div className="border border-gray-300 rounded-lg shadow-md bg-white relative overflow-hidden">
               <img

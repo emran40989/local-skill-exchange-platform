@@ -20,7 +20,8 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="bg-base-100">
+      <div className="navbar container mx-auto py-2 shadow-sm my-2 rounded-lg">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -59,6 +60,7 @@ const Navbar = () => {
       <div className="navbar-end">
         <button className="btn btn-outline btn-primary"> <Link to="/login" className="text-sm font-semibold">Login</Link></button>
       </div>
+    </div>
     </div>
   );
 };
