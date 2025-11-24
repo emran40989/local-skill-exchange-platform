@@ -1,6 +1,17 @@
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import i1 from '../assets/guiter.jpg'
+import i2 from '../assets/english.jpg'
+import i3 from '../assets/yoga.jpg'
+import i4 from '../assets/coding.jpg'
+import i5 from '../assets/python.jpg'
+import i6 from '../assets/photography.jpg'
+import i7 from '../assets/meditaion.jpg'
+import i8 from '../assets/marketing.jpg'
+import i9 from '../assets/chess.jpg'
+
+
 
 // Import Swiper styles
 import "swiper/css";
@@ -14,7 +25,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 export default function App() {
   return (
     <>
-      <div>
+      <div className="rounded-lg overflow-hidden">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -29,31 +40,31 @@ export default function App() {
           modules={[Autoplay, Pagination, Navigation]}
         >
           <SwiperSlide>
-           <img src="https://i.ibb.co.com/5WZDBJVJ/guiter.jpg" alt="img" className="w-full object-cover h-[400px]" />
+           <img src={i6} alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-           <img src="https://i.ibb.co.com/M5cHXMjV/english.jpg" alt="img" className="w-full object-cover h-[400px]" />
+           <img src={i2} alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-           <img src="https://i.ibb.co.com/N6zH3pB0/yoga.jpg" alt="img" className="w-full object-cover h-[400px]" />
+           <img src={i3} alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-           <img src="https://i.ibb.co.com/WWqxrCGN/coding.jpg" alt="img" className="w-full object-cover h-[400px]" />
+           <img src={i4} alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-           <img src="https://i.ibb.co.com/qYH4L0dT/python.jpg" alt="img" className="w-full object-cover h-[400px]" />
+           <img src={i5} alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-           <img src="https://i.ibb.co.com/TDZqFBwt/photography.jpg" alt="img" className="w-full object-cover h-[400px]" />
+           <img src={i1} alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-           <img src="https://i.ibb.co.com/q3gYjSYN/meditaion.jpg" alt="img" className="w-full object-cover h-[400px]" />
+           <img src={i7} alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-           <img src="https://i.ibb.co.com/gLxng8sd/marketing.jpg" alt="img" className="w-full object-cover h-[400px]" />
+           <img src={i8} alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
           <SwiperSlide>
-           <img src="https://i.ibb.co.com/3yvsXmM9/chess.jpg" alt="img" className="w-full object-cover h-[400px]" />
+           <img src={i9} alt="img" className="w-full object-cover h-[400px]" />
           </SwiperSlide>
          
         </Swiper>
