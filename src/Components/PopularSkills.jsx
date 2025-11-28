@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router";
 
 const PopularSkills = () => {
   const [skills, setSkills] = useState([]);
@@ -14,7 +15,7 @@ const PopularSkills = () => {
     <div className="py-8 bg-base-200 rounded-lg">
       <h2 className="text-3xl text-center font-bold my-4">Popular Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4 container mx-auto">
-        {skills.slice(0,3).map((skill) => (
+        {skills.slice(0, 3).map((skill) => (
           <div className="w-full gap-2">
             <div className="border border-gray-300 rounded-lg shadow-md bg-white relative overflow-hidden">
               <img
@@ -31,10 +32,12 @@ const PopularSkills = () => {
                 </div>
                 <div className="flex justify-between mb-3">
                   <div className="text-sm text-black font-semibold">
-                    Rating: <span className="text-yellow-600">{skill.rating}</span>
+                    Rating:{" "}
+                    <span className="text-yellow-600">{skill.rating}</span>
                   </div>
                   <div className="bg-gray-100 px-2 py-1 rounded text-sm font-semibold text-gray-800">
-                    <span className="text-sm font-semibold">Price: </span> {skill.price} USD/hr
+                    <span className="text-sm font-semibold">Price: </span>{" "}
+                    {skill.price} USD/hr
                   </div>
                 </div>
                 <button className="w-full bg-green-500 text-white py-2 rounded hover:bg-green-600 cursor-pointer">
@@ -44,6 +47,13 @@ const PopularSkills = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="flex justify-center mt-4">
+        <button className="btn btn-active btn-primary text-center text-lg font-bold">
+        <Link to="/skills" className="">
+          <div className="">Show All</div>
+        </Link>
+      </button>
       </div>
     </div>
   );
