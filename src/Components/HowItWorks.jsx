@@ -1,5 +1,8 @@
 import React from "react";
-import i1 from "../assets/emran.jpg";
+import i1 from "../assets/discover.png";
+import i2 from "../assets/practice.jpg"
+import i3 from "../assets/feedback.jpg"
+
 
 const HowItWorks = () => {
   return (
@@ -23,22 +26,20 @@ const HowItWorks = () => {
               </div>
               <div className="bg-base-200 shadow-sm flex flex-col items-center justify-center min-h-[300px] rounded-lg">
                 <figure className="h-[120px] w-[120px] rounded-full overflow-hidden">
-                  <img src={i1} alt="image" className="rounded-full" />
+                  <img src={i2} alt="image" className="rounded-full" />
                 </figure>
-                <h2 className="pt-4 text-2xl font-bold">Discover Skills</h2>
+                <h2 className="pt-4 text-2xl font-bold">Practice</h2>
                 <h3 className="text-xl px-4 text-center text-blue-400 font-semibold">
-                  Explore your desired skills in various categories through
-                  internet
+                  Practice more and more. 
                 </h3>
               </div>
               <div className="bg-base-200 shadow-sm flex flex-col items-center justify-center min-h-[300px] rounded-lg">
                 <figure className="h-[120px] w-[120px] rounded-full overflow-hidden">
-                  <img src={i1} alt="image" className="rounded-full" />
+                  <img src={i3} alt="image" className="rounded-full" />
                 </figure>
-                <h2 className="pt-4 text-2xl font-bold">Discover Skills</h2>
+                <h2 className="pt-4 text-2xl font-bold">Achieved</h2>
                 <h3 className="text-xl px-4 text-center text-blue-400 font-semibold">
-                  Explore your desired skills in various categories through
-                  internet
+                  Get your targeted skill and take feedback from others. 
                 </h3>
               </div>
             </div>

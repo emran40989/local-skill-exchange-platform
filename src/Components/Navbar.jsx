@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, NavLink } from "react-router";
 import logo from "../assets/mylogo.png"
+import { AuthContext } from "../Provider/AuthProvider";
 
 
 
 const Navbar = () => {
+  const {user} = useContext(AuthContext)
   const links = (
     <>
       <li>
@@ -57,9 +59,16 @@ const Navbar = () => {
           {links}
         </ul>
       </div>
-      <div className="navbar-end">
-        <button className="btn btn-outline btn-primary"> <Link to="/login" className="text-sm font-semibold">Login</Link></button>
+      {
+        user && <div className="navbar-end">
+        <button className="btn btn-outline btn-primary"> <p className="text-sm font-semibold">Logout</p></button>
       </div>
+      }
+      {
+        !user && <div className="navbar-end">
+        <button className="btn btn-outline btn-primary"> <Link to={"/login"} className="text-sm font-semibold">Login</Link></button>
+      </div>
+      }
     </div>
     </div>
   );
