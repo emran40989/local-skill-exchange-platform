@@ -17,13 +17,13 @@ const Signup = () => {
     
 
     registerwithEmailPassword(email, password)
-    .then((userCredenntial) => {
+    .then((userCredential) => {
         updateProfile(auth.currentUser, {
         displayName: name,
         photoURL: photoUrl,
       })
         .then(() => {
-          setUser(userCredenntial.user)
+          setUser(userCredential.user)
         })
         .catch((error) => {
           console.log(error)
